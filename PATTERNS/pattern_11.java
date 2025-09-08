@@ -9,7 +9,7 @@ public class pattern_11{
             else start=0;
                 for(int j=0; j<=i; j++){
                     System.out.print(start);
-                    start=1-start;
+                    start=1-start; //Flips
                 }
             System.out.println();
         }
